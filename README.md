@@ -24,4 +24,20 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 - Config Menu
 - Trust Support
 - Modular Architecture
-- 
+- Trade request window
+- Party request window
+- Loot notification
+- Scalable HUDs system
+- Pet Window
+- ZoneMap transition integrated
+- InfoBar integrated
+- Gil tracker (Gil per hour and Session)
+- Inventory tracker
+
+## Commands
+
+- //wxiui config
+- //wxiui move <hud>
+- //wxiui hide <hud>
+- //wxiui show <hud>
+- //wxiui toggle <hud>
