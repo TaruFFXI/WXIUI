@@ -51,6 +51,11 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 - //wxiui show <hud>
 - //wxiui toggle <hud>
 
+## Dependencies
+
+WXIUI requires `libs.lua` to function. You must download it and place it inside your Windower `libs` folder.
+https://github.com/Windower/Lua/blob/dev/addons/Nostrum/prims.lua
+
 ## Usage
 
 Using the `//wxiui config` command, you can access the interface configuration menu. On the first page, you can move all WXIUI components independently anywhere on the screen. On the second page, clicking the percentage value (50% by default) increases the scale in 10% increments, allowing you to resize the desired HUD. The available range goes from 30% to 100%, enabling WXIUI to adapt seamlessly to both Steam Deck and 4K displays.
