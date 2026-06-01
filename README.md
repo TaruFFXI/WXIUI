@@ -27,6 +27,7 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 - Config Menu
 - Trust Support
 - Modular Architecture
+- Grid screen for pixel-perfect HUD positioning
 - Trade request window
 - Party request window
 - Loot notification
