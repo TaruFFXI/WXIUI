@@ -2,10 +2,7 @@
   <img src="screenshots/Banner.png" alt="WXIUI Banner" width="900">
 </p>
 
-Support my work: <a href="https://paypal.me/fatherrogue">
-  <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/donate-logo-large.png" alt="Donate with PayPal" />
-</a>
-
+Support my work: [![Donate](https://img.shields.io/badge/PayPal-Donate-blue)](https://paypal.me/fatherrogue) 
 # WXIUI
 
 A modular UI for Windower
