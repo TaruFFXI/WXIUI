@@ -15,6 +15,9 @@ I’ve been using Windower for years to play my favorite game, and I’ve always
 
 However, I’m not a developer, and this is my first addon. AI helped me build it, and although I’ve done hundreds of tests and fixed every issue I could find, it’s possible that some bugs may still appear.
 
+<p align="center">
+  <img src="screenshots/InvitePartyHUD.png" width="900">
+</p>
 
 ## Features
 
