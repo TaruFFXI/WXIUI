@@ -2,7 +2,7 @@
   <img src="screenshots/Banner.png" alt="WXIUI Banner" width="900">
 </p>
 
-<a href="https://paypal.me/fatherrogue">
+Support my work: <a href="https://paypal.me/fatherrogue">
   <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/donate-logo-large.png" alt="Donate with PayPal" />
 </a>
 
