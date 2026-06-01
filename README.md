@@ -16,7 +16,7 @@ I’ve been using Windower for years to play my favorite game, and I’ve always
 However, I’m not a developer, and this is my first addon. AI helped me build it, and although I’ve done hundreds of tests and fixed every issue I could find, it’s possible that some bugs may still appear.
 
 <p align="center">
-  <img src="screenshots/Full_UI.png" width="900">
+  <img src="screenshots/FullUI.png" width="900">
 </p>
 
 ## Features
