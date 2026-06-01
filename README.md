@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/banner.png" alt="WXIUI Banner" width="900">
+  <img src="screenshots/Banner.png" alt="WXIUI Banner" width="900">
 </p>
 
 # WXIUI
