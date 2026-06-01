@@ -77,4 +77,7 @@ The notification system created by the XIUI team to alert players when a new ite
 
 A special thanks to Kenshi, who was not only a fellow player in the past, but also shares the same country of origin as me. Spaniards play FFXI too! 🇪🇸
 - To the XIVParty team, whose work also served as inspiration for certain aspects of this project and from whom I borrowed a few lines of code. Thanks to their efforts, countless players were able to get into FFXI with a more modern and user-friendly interface, helping to overcome one of the biggest barriers for newcomers.
-
+- To azamorapl for bringing a touch of FFXIV to FFXI with the fantastic ZoneName addon, which I have integrated into WXIUI. I’m generally not a fan of making one game look like another, but ZoneName is simply wonderful.
+- To the creators of GrowthGauge, a simple yet incredibly useful addon thanks to its elegant simplicity. Years ago, it took me a long time to track it down online, and now I wanted to bring it back by adapting its concept into WXIUI.
+- To PasiXI for TargetBar, from which I also drew data and inspiration that helped make WXIUI’s own Target Bar possible. It’s another one of those addons whose usefulness you don’t fully appreciate until you actually try it.
+- And to the teams behind GilTracker and InvSpace for their excellent work on both addons. I hope you enjoy the way I’ve brought their ideas into WXIUI, along with the improvements and enhancements I’ve added along the way.
