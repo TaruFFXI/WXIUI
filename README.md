@@ -53,10 +53,19 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 ## Usage
 
 Using the `//wxiui config` command, you can access the interface configuration menu. On the first page, you can move all WXIUI components independently anywhere on the screen. On the second page, clicking the percentage value (50% by default) increases the scale in 10% increments, allowing you to resize the desired HUD. The available range goes from 30% to 100%, enabling WXIUI to adapt seamlessly to both Steam Deck and 4K displays.
+The `//wxiui move <hud>` command allows you to reposition any interface element without having to open the main configuration menu. The `hide` command hides the selected HUD, for example, `//wxiui hide partyhud` will hide the party HUD. The `show` command makes it visible again, while `hide` acts as a toggle, switching the HUD between hidden and visible states.
 
 <p align="center">
   <img src="screenshots/HUDMenu.png" width="900">
 </p>
 <p align="center">
   <img src="screenshots/UIResizeHUD.png" width="900">
+</p>
+
+## Loot Notification
+
+The notification system created by the XIUI team to alert players when a new item is added to their inventory is something that always fascinated me, so I wanted to bring a similar feature to WXIUI. This system can display notifications for up to 5 items obtained after defeating monsters, with each notification remaining on screen for 5 seconds. Like the rest of the HUD elements, it can be freely moved and resized to suit your preferences.
+
+<p align="center">
+  <img src="screenshots/LootHUD.png" width="900">
 </p>
