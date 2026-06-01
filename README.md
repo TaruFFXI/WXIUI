@@ -69,3 +69,12 @@ The notification system created by the XIUI team to alert players when a new ite
 <p align="center">
   <img src="screenshots/LootHUD.png" width="900">
 </p>
+
+## Acknowledgments
+
+- To the XIUI team for Ashita, whose work inspired this project. I honestly felt a bit envious of what they had created because we didn’t have anything comparable on Windower. Their ideas have inspired many addon developers to improve their own projects and have helped make FFXI a better and more accessible game for everyone.
+- To the creators of InfoBar for helping us decipher every monster. Thanks to their work, I was able to integrate part of their functionality into WXIUI, as I consider it one of the most essential addons for playing the game.
+
+A special thanks to Kenshi, who was not only a fellow player in the past, but also shares the same country of origin as me. Spaniards play FFXI too! 🇪🇸
+- To the XIVParty team, whose work also served as inspiration for certain aspects of this project and from whom I borrowed a few lines of code. Thanks to their efforts, countless players were able to get into FFXI with a more modern and user-friendly interface, helping to overcome one of the biggest barriers for newcomers.
+
