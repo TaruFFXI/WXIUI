@@ -1,0 +1,20 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <debuffhud>
+            <blink_threshold>15</blink_threshold>
+            <icon_size>20</icon_size>
+            <icons_per_row>8</icons_per_row>
+            <low_timer_threshold>10</low_timer_threshold>
+            <max_debuffs>32</max_debuffs>
+            <show_timers>true</show_timers>
+            <show_tooltip>true</show_tooltip>
+            <spacing_x>24</spacing_x>
+            <spacing_y>34</spacing_y>
+            <timer_font_size>9</timer_font_size>
+            <visible>true</visible>
+            <x>1350</x>
+            <y>930</y>
+        </debuffhud>
+    </global>
+</settings>
