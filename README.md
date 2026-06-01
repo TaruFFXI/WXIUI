@@ -1,2 +1,1 @@
-# WXIUI
-Windower 4 custom UI addon for Final Fantasy XI official servers inspired by XIUI
+Llevo años utilizando Windower para jugar a mi juego favorito, y siempre he querido una interfaz sofisticada como logró hacer el genial equipo de XIUI para Ashita.
