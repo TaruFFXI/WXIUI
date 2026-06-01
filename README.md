@@ -7,3 +7,13 @@ English:
 I’ve been using Windower for years to play my favorite game, and I’ve always wanted a sophisticated interface like the amazing XIUI team managed to create for Ashita. Until now, there haven’t been many similar options available, so I decided to create my own UI inspired by the work done with XIUI.
 
 However, I’m not a developer, and this is my first addon. AI helped me build it, and although I’ve done hundreds of tests and fixed every issue I could find, it’s possible that some bugs may still appear.
+
+
+## Features
+
+- Buff Tracker
+- Cast Bar
+- Distance HUD
+- Config Menu
+- Trust Support
+- Modular Architecture
