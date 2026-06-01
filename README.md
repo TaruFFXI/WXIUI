@@ -54,7 +54,7 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 
 ## Dependencies
 
-WXIUI requires `libs.lua` to function. You must download it and place it inside your Windower `libs` folder.
+WXIUI requires `libs.lua` to function. You must download it and place it inside your Windower `addons/wxiui` folder.
 https://github.com/Windower/Lua/blob/dev/addons/Nostrum/prims.lua
 
 ## Usage
