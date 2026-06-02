@@ -5,7 +5,6 @@
 Support my work:  [![Donate](https://img.shields.io/badge/PayPal-Donate-blue)](https://paypal.me/fatherrogue) 
 # WXIUI
 
-A modular UI for Windower
 WXIUI - A modular UI for Final Fantasy XI
 -------------------------------------------
 Llevo años utilizando Windower para jugar a mi juego favorito, y siempre he querido una interfaz sofisticada como logró hacer el genial equipo de XIUI para Ashita. Hasta el momento habían no demasiadas opciones similares así que me animé a crear mi propia UI basada en el trabajo hecho en XIUI. Sin embargo no soy desarrollador y este es mi primer addon, el cual me ha ayudado la IA y aunque he hecho cientos de pruebas y he corregido todos los errores que he podido, es posible que aparezca alguno.  
