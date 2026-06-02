@@ -721,6 +721,18 @@ windower.register_event(
         local player =
             windower.ffxi.get_player()
 
+    -- Force-sync hidden_by_event with real player status.
+-- Prevents the UI from staying hidden after login,
+-- relog, disconnects or missed status events.
+
+        if player then
+
+           hidden_by_event =
+               (player.status ==
+               STATUS_ID_CUTSCENES)
+
+end
+
         gilhud.visible =
             not hidden_by_event and
             settings.gilhud.visible
