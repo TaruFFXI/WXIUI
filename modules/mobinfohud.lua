@@ -397,10 +397,10 @@ if info.Aggro then
     table.insert(visible_icons, scent_icon)
 end
 
-    if info.Link then
-    table.insert(visible_icons, link_icon)
-end
+    end
 
+if info.Link then
+    table.insert(visible_icons, link_icon)
 end
 
 local icon_start =
