@@ -29,6 +29,7 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 - Trust Support
 - Modular Architecture
 - Grid screen for pixel-perfect HUD positioning
+- Hide or show any HUD
 - Trade request window
 - Party request window
 - Loot notification
@@ -38,7 +39,8 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 - InfoBar integrated
 - Gil tracker (Gil per hour and Session)
 - Inventory tracker
-- Dynamic TP color design.
+- Dynamic TP color design
+- Tooltips on buffs, debuffs, inventory hud and gil hud
 
 <p align="center">
   <img src="screenshots/InvitePartyHUD.png" width="900">
