@@ -732,10 +732,8 @@ local y =
             -- TP VISIBILITY
             -- =================================================
 
-            if mob and
-               current_mp > 0
-            then
-
+            if mob then
+            
                 member.tp_circle:show()
 
             else
@@ -1010,9 +1008,7 @@ member.mp_fill:height(
             -- TP
             -- =================================================
 
-            if mob and
-               current_mp > 0
-            then
+            if mob then
 
                 local tp =
                     party_member.tp or
