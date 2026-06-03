@@ -150,6 +150,7 @@ local prev_text
 
 local button_texts = {}
 local scale_texts = {}
+local toggle_texts = {}
 
 local hover_index = nil
 
@@ -270,6 +271,21 @@ for i = 1, #button_labels do
         scale_t
     )
 
+    local toggle_t =
+    texts.new('')
+
+toggle_t:size(10)
+toggle_t:font('Arial')
+toggle_t:bold(true)
+toggle_t:bg_alpha(0)
+toggle_t:stroke_alpha(255)
+toggle_t:stroke_width(2)
+
+table.insert(
+    toggle_texts,
+    toggle_t
+)
+
 end
 
     subtitle_text =
@@ -325,6 +341,10 @@ function configmenu.hide()
     t:hide()
 end
 
+    for _, t in ipairs(toggle_texts) do
+    t:hide()
+end
+
 end
 
 -- =========================================================
@@ -376,7 +396,7 @@ function configmenu.update()
    if configmenu.page == 1 then
 
     subtitle_text:text(
-        'Select a HUD to reposition'
+        'Select a HUD to reposition. ON/OFF toggles visibility.'
     )
 
 else
@@ -388,7 +408,7 @@ else
 end
 
     subtitle_text:pos(
-        configmenu.x + 155,
+        configmenu.x + 85,
         configmenu.y + 50
     )
 
@@ -480,7 +500,43 @@ if configmenu.page == 1 then
 
         text_obj:show()
 
-        scale_texts[i]:hide()
+local visible =
+    settings[
+        button_modules[i]
+    ].visible
+
+toggle_texts[i]:text(
+    visible and
+    '[ON]' or
+    '[OFF]'
+)
+
+if visible then
+
+    toggle_texts[i]:color(
+        100,
+        255,
+        100
+    )
+
+else
+
+    toggle_texts[i]:color(
+        255,
+        100,
+        100
+    )
+
+end
+
+toggle_texts[i]:pos(
+    pos_x + 130,
+    pos_y
+)
+
+toggle_texts[i]:show()
+
+scale_texts[i]:hide()
 
     end
 
@@ -562,6 +618,8 @@ scale_texts[i]:pos(
 )
 
 scale_texts[i]:show()
+
+toggle_texts[i]:hide()
 
     end
 
@@ -708,8 +766,40 @@ if configmenu.page == 1 then
 
         end
 
+        local toggle_x =
+    button_x + 130
+
+if x >= toggle_x and
+   x <= toggle_x + 60 and
+   y >= button_y and
+   y <= button_y + 20
+then
+
+local module =
+    button_modules[i]
+
+local new_state =
+    not settings[module].visible
+
+settings[module].visible =
+    new_state
+
+windower.send_command(
+    string.format(
+        'wxiui %s %s',
+        new_state and 'show' or 'hide',
+        module
+    )
+)
+
+save_settings()
+
+return true
+
+end
+
         if x >= button_x and
-           x <= button_x + 180 and
+           x <= button_x + 120 and
            y >= button_y and
            y <= button_y + 20
         then
@@ -889,6 +979,10 @@ function configmenu.destroy()
     end
 
     for _, t in ipairs(scale_texts) do
+    t:destroy()
+end
+
+    for _, t in ipairs(toggle_texts) do
     t:destroy()
 end
 

@@ -1,7 +1,7 @@
 return {
     playerhud = {
-        x = 544,
-        y = 960,
+        x = 536,
+        y = 968,
         visible = true,
         scale = 50
     },
@@ -21,15 +21,15 @@ return {
     },
 
     debuffhud = {
-        x = 536,
-        y = 848,
+        x = 544,
+        y = 840,
         visible = true,
         scale = 50
     },
 
     partyhud = {
-        x = 1424,
-        y = 376,
+        x = 1008,
+        y = 752,
         visible = true,
         scale = 50
     },
@@ -84,22 +84,22 @@ return {
     },
 
     pethud = {
-        x = 1216,
-        y = 928,
+        x = 1296,
+        y = 920,
         visible = true,
         scale = 50
     },
 
     lootnotify = {
-        x = 352,
-        y = 520,
+        x = 568,
+        y = 488,
         visible = true,
         scale = 50
     },
 
     tothud = {
-        x = 808,
-        y = 768,
+        x = 816,
+        y = 752,
         visible = true,
         scale = 50
     }

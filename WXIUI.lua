@@ -405,6 +405,53 @@ windower.register_event(
 
         end
 
+        -- HELP
+if not cmd or cmd == 'help' then
+
+    windower.add_to_chat(
+        207,
+        '[WXIUI] Available Commands:'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui help'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui config'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui show <module>'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui hide <module>'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui toggle <module>'
+    )
+
+    windower.add_to_chat(
+        207,
+        '//wxiui move <module>'
+    )
+
+    windower.add_to_chat(
+        207,
+        'Modules: playerhud, targethud, tothud, buffhud, debuffhud, partyhud, castbar, experiencehud, distancehud, mobinfohud, gilhud, zonehud, inventoryhud, pethud, lootnotify'
+    )
+
+    return
+
+end
+
         if module == 'playerhud' then
             hud = playerhud
 
@@ -822,6 +869,10 @@ inventoryhud.visible =
 pethud.visible =
     not hidden_by_event and
     settings.pethud.visible
+
+lootnotify.visible =
+    not hidden_by_event and
+    settings.lootnotify.visible
 
         -- =================================================
         -- SYSTEMS

@@ -24,11 +24,6 @@ local defaults = {
 
     debuffhud = {
 
-        visible = true,
-
-        x = 1350,
-        y = 930,
-
         icon_size = 20,
 
         spacing_x = 24,
@@ -70,16 +65,16 @@ end
 local debuffhud = {}
 
 debuffhud.visible =
-    settings.debuffhud.visible
+    global_settings.debuffhud.visible
 
 debuffhud.preview =
     false
 
 debuffhud.x =
-    settings.debuffhud.x
+    global_settings.debuffhud.x
 
 debuffhud.y =
-    settings.debuffhud.y
+    global_settings.debuffhud.y
 
 debuffhud.mouse_x =
     0
@@ -356,7 +351,7 @@ end
 function debuffhud.update()
 
     debuffhud.visible =
-        settings.debuffhud.visible
+        global_settings.debuffhud.visible
 
     if not debuffhud.visible then
 
@@ -915,13 +910,15 @@ end
 
 function debuffhud.save_settings()
 
-    settings.debuffhud.x =
+    global_settings.debuffhud.x =
         debuffhud.x
 
-    settings.debuffhud.y =
+    global_settings.debuffhud.y =
         debuffhud.y
 
-    config.save(settings)
+    if _G.save_settings then
+        _G.save_settings()
+    end
 
 end
 

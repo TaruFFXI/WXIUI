@@ -12,9 +12,6 @@
             <spacing_x>24</spacing_x>
             <spacing_y>34</spacing_y>
             <timer_font_size>9</timer_font_size>
-            <visible>true</visible>
-            <x>1350</x>
-            <y>930</y>
         </debuffhud>
     </global>
 </settings>
