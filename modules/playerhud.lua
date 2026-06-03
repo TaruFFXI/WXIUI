@@ -7,6 +7,8 @@ local playerhud = {}
 local settings =
     require('data/settings')
 
+local current_tp_texture = ''    
+
 playerhud.visible = true
 playerhud.preview = false
 
@@ -577,11 +579,17 @@ tp_circle:size(
     64 * scale
 )
 
+    if current_tp_texture ~= tp_texture then
+
+    current_tp_texture = tp_texture
+
     tp_circle:path(
         windower.addon_path ..
         'assets/textures/' ..
         tp_texture
     )
+
+end
 
     tp_circle:pos(
         tp_x,
