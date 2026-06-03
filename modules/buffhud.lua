@@ -8,6 +8,7 @@ local bufftracker =
     require('systems/bufftracker')
 
 local buffhud = {}
+local current_buff_ids = {}
 
 buffhud.visible = true
 
@@ -149,7 +150,13 @@ local icon_spacing =
                 tostring(buff_id) ..
                 '.png'
 
-            icon:path(icon_path)
+            if current_buff_ids[i] ~= buff_id then
+
+    current_buff_ids[i] = buff_id
+
+    icon:path(icon_path)
+
+end
 
             icon:size(
                 icon_size,
@@ -250,6 +257,8 @@ local icon_spacing =
             end
 
         else
+
+            current_buff_ids[i] = nil
 
             icon:hide()
 
