@@ -324,6 +324,8 @@ local function reset_member(member)
 
     member.max_mp = 1
 
+    member.current_tp_texture = ''
+
 end
 
 -- =========================================================
@@ -519,6 +521,8 @@ function partyhud.initialize()
         member.damage_hp = 1.0
 
         member.max_mp = 1
+
+        member.current_tp_texture = ''
 
         party_members[i] = member
 
@@ -1014,11 +1018,21 @@ member.mp_fill:height(
                     party_member.tp or
                     0
 
-                member.tp_circle:path(
-                    windower.addon_path ..
-                    'assets/textures/' ..
-                    get_tp_texture(tp)
-                )
+                local tp_texture =
+    get_tp_texture(tp)
+
+if member.current_tp_texture ~= tp_texture then
+
+    member.current_tp_texture =
+        tp_texture
+
+    member.tp_circle:path(
+        windower.addon_path ..
+        'assets/textures/' ..
+        tp_texture
+    )
+
+end
 
                 member.tp_circle:size(
     32 * scale,
