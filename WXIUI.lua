@@ -1,6 +1,6 @@
 _addon.name = 'WXIUI'
 _addon.author = 'Taru Gaming'
-_addon.version = '1.3'
+_addon.version = '1.3.1'
 _addon.commands = {'wxiui'}
 
 require('tables')
