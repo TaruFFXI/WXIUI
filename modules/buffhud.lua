@@ -118,6 +118,10 @@ local icon_spacing =
 
         end
 
+    for i = 1, 16 do
+    current_buff_ids[i] = nil
+end     
+
         return
 
     end
