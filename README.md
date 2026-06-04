@@ -47,6 +47,7 @@ However, I’m not a developer, and this is my first addon. AI helped me build i
 
 ## Commands
 
+- //wxiui or //wxiui help 
 - //wxiui config
 - //wxiui move <hud>
 - //wxiui hide <hud>
