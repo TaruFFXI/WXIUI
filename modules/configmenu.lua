@@ -356,7 +356,7 @@ function configmenu.update()
     if configmenu.pending_move then
 
         windower.send_command(
-            'wxiui move ' ..
+            'wxi move ' ..
             configmenu.pending_move
         )
 
@@ -382,7 +382,7 @@ function configmenu.update()
     )
 
     title_text:text(
-        'WXIUI Configuration'
+        'WXI Configuration'
     )
 
     title_text:pos(
@@ -786,7 +786,7 @@ settings[module].visible =
 
 windower.send_command(
     string.format(
-        'wxiui %s %s',
+        'wxi %s %s',
         new_state and 'show' or 'hide',
         module
     )

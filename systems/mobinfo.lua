@@ -29,7 +29,7 @@ local function open_db()
 
         windower.add_to_chat(
             167,
-            '[WXIUI] Failed to open database.db'
+            '[WXI] Failed to open database.db'
         )
 
     end

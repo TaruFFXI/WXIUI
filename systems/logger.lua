@@ -10,7 +10,7 @@ function logger.debug(message)
 
     windower.add_to_chat(
         207,
-        '[WXIUI] ' .. tostring(message)
+        '[WXI] ' .. tostring(message)
     )
 
 end
@@ -19,7 +19,7 @@ function logger.error(message)
 
     windower.add_to_chat(
         167,
-        '[WXIUI ERROR] ' ..
+        '[WXI ERROR] ' ..
         tostring(message)
     )
 
